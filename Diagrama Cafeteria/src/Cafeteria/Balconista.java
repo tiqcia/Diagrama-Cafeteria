@@ -34,7 +34,7 @@ public class Balconista {
         pedido.getPagamento().exibirResumo();
     }
 
-    public void entregarPedido() {
+    public void prepararPedido() {
         System.out.println("Pagamento realizado! O pedido será preparado.");
     }
 }

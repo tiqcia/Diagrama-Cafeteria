@@ -42,7 +42,7 @@ public class Main {
         String formaPagamento = scanner.nextLine();
 
         System.out.println("Forma de pagamento escolhida: " + formaPagamento);
-        balconista.entregarPedido();
+        balconista.prepararPedido();
 
         scanner.close();
     }
